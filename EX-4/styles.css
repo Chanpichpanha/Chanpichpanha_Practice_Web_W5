@@ -577,7 +577,6 @@ border-radius: 10px;
     display: block;
 }
 
-/* Tablet (Screens under 1024px: 2 columns) */
 @media (max-width: 1024px) {
     .container {
         grid-template-columns: 200px 1fr;
@@ -607,7 +606,6 @@ border-radius: 10px;
     }
 }
 
-/* Mobile (Screens under 768px: 1 single column) */
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
